@@ -1,0 +1,6 @@
+streamlit
+pypdf
+langchain
+langchain-community
+faiss-cpu
+boto3

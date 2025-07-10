@@ -1,0 +1,4 @@
+camelia-bedrock-pdf-chat
+
+docker run -e BUCKET_NAME=camelia-bedrock-pdf-chat -v ~/.aws:/root/.aws -p 8083:8083 --name pdf-admin -d pdf-reader-admin
+docker run -e BUCKET_NAME=camelia-bedrock-pdf-chat -v ~/.aws:/root/.aws -p 8084:8084 --name pdf-client -d pdf-reader-client
